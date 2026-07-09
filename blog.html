@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowSync Blog | Automation Tips, Engineering, and Design</title>
+  <meta name="description" content="Discover modern workflow strategies, technical articles, integrations guides, and product news on the FlowSync Blog. Subscribe to get tips in your inbox.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://flowsync.com/blog.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FlowSync Blog | Automation Tips, Engineering, and Design">
+  <meta property="og:description" content="Discover modern workflow strategies, technical articles, integrations guides, and product news on the FlowSync Blog. Subscribe to get tips in your inbox.">
+  <meta property="og:image" content="https://flowsync.com/assets/images/og-image.png">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 32 32">
+          <path d="M16 2L2 9l14 7 14-7-14-7zM2 16l14 7 14-7-14 7-14-7zm0 7l14 7 14-7-14 7-14-7z"/>
+        </svg>
+        <span>FlowSync</span>
+      </a>
+      
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="features.html" class="nav-link">Features</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="blog.html" class="nav-link active">Blog</a>
+      </nav>
+
+      <div class="nav-ctas">
+        <a href="contact.html" class="btn btn-secondary">Book a demo</a>
+        <a href="contact.html" class="btn btn-primary">Start free <i class="ph ph-arrow-right"></i></a>
+      </div>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="ph ph-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-overlay" aria-hidden="true">
+    <a href="features.html" class="nav-link">Features</a>
+    <a href="pricing.html" class="nav-link">Pricing</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="blog.html" class="nav-link active">Blog</a>
+    <div class="mobile-ctas mt-8">
+      <a href="contact.html" class="btn btn-secondary">Book a demo</a>
+      <a href="contact.html" class="btn btn-primary mt-2">Start free <i class="ph ph-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    
+    <!-- Hero / Header -->
+    <section class="hero-sec" id="hero">
+      <div class="container">
+        <span class="badge badge-indigo reveal" data-reveal-delay="100">RESOURCES & NEWS</span>
+        <h1 class="hero-headline mt-4 reveal" data-reveal-delay="200">The FlowSync Blog</h1>
+        <p class="hero-sub reveal" data-reveal-delay="300">
+          Guides, engineering notes, and design systems analysis from our team to help you optimize workspace pipelines.
+        </p>
+
+        <!-- Category Bar Filters -->
+        <div class="blog-filters reveal" data-reveal-delay="400">
+          <button class="filter-pill active" data-category="all">All</button>
+          <button class="filter-pill" data-category="product">Product</button>
+          <button class="filter-pill" data-category="engineering">Engineering</button>
+          <button class="filter-pill" data-category="design">Design</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Featured Article & Grid -->
+    <section class="container">
+      
+      <!-- Featured Post -->
+      <div class="featured-blog-card reveal" data-reveal-delay="100">
+        <div class="blog-img-placeholder">
+          <div style="background: linear-gradient(135deg, var(--c-indigo-600) 0%, var(--c-violet) 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+            <i class="ph ph-sparkle text-white" style="font-size: 64px; opacity: 0.5;"></i>
+          </div>
+        </div>
+        <div class="featured-blog-content">
+          <div style="display: flex; gap: var(--sp-2); align-items: center;">
+            <span class="badge badge-indigo">NEW</span>
+            <span style="font-size: var(--fs-caption); color: var(--c-text-muted);">July 2026 &bull; 8 min read</span>
+          </div>
+          <h3 class="mt-4" style="font-size: var(--fs-page-hero);"><a href="#">How AI suggestions automate manual work</a></h3>
+          <p class="mt-4">
+            Discover the mechanics behind FlowSync's new heuristic recommendation engine. Learn how we detect repeating app logs and configure triggers without human error.
+          </p>
+          <div class="mt-6" style="display: flex; align-items: center; gap: var(--sp-3);">
+            <div style="width: 32px; height: 32px; border-radius: var(--r-full); background-color: var(--c-indigo-500); display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 12px;">JP</div>
+            <div>
+              <p style="font-size: var(--fs-caption); font-weight: 600; color: var(--c-text-primary);">John Patel</p>
+              <p style="font-size: 10px; color: var(--c-text-muted);">PM, AI Engine</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Articles Grid -->
+      <div class="blog-grid mt-12">
+        
+        <!-- Post 1 -->
+        <div class="blog-card-item reveal" data-category="product" data-reveal-delay="100">
+          <div class="card blog-card">
+            <div class="blog-img-placeholder" style="height: 180px;">
+              <div style="background: linear-gradient(135deg, var(--c-raised) 0%, var(--c-surface) 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                <i class="ph ph-git-branch text-indigo" style="font-size: 48px; opacity: 0.5;"></i>
+              </div>
+            </div>
+            <div class="blog-card-meta mt-4">
+              <span class="badge badge-indigo">Product</span>
+              <span>6 min read</span>
+            </div>
+            <h3 class="mt-2" style="font-size: var(--fs-h4);"><a href="#">Integrating Figma Comments with GitHub Issues</a></h3>
+            <p style="font-size: var(--fs-small); margin-top: var(--sp-2);">A detailed walk-through on setting up automated comments routing to speed up dev cycles.</p>
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="blog-card-item reveal" data-category="engineering" data-reveal-delay="200">
+          <div class="card blog-card">
+            <div class="blog-img-placeholder" style="height: 180px;">
+              <div style="background: linear-gradient(135deg, var(--c-raised) 0%, var(--c-surface) 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                <i class="ph ph-clock text-cyan" style="font-size: 48px; opacity: 0.5;"></i>
+              </div>
+            </div>
+            <div class="blog-card-meta mt-4">
+              <span class="badge badge-cyan">Engineering</span>
+              <span>12 min read</span>
+            </div>
+            <h3 class="mt-2" style="font-size: var(--fs-h4);"><a href="#">Under the hood of sub-second polling loops</a></h3>
+            <p style="font-size: var(--fs-small); margin-top: var(--sp-2);">How our engineering team optimized network headers to poll database logs with minimal latency.</p>
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="blog-card-item reveal" data-category="design" data-reveal-delay="300">
+          <div class="card blog-card">
+            <div class="blog-img-placeholder" style="height: 180px;">
+              <div style="background: linear-gradient(135deg, var(--c-raised) 0%, var(--c-surface) 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                <i class="ph ph-paint-brush text-violet" style="font-size: 48px; opacity: 0.5;"></i>
+              </div>
+            </div>
+            <div class="blog-card-meta mt-4">
+              <span class="badge badge-violet">Design</span>
+              <span>5 min read</span>
+            </div>
+            <h3 class="mt-2" style="font-size: var(--fs-h4);"><a href="#">Designing glassmorphism dark modes</a></h3>
+            <p style="font-size: var(--fs-small); margin-top: var(--sp-2);">Styling tips on contrast ratios, border outlines, and glowing gradients for modern SaaS platforms.</p>
+          </div>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="blog-card-item reveal" data-category="product" data-reveal-delay="100">
+          <div class="card blog-card">
+            <div class="blog-img-placeholder" style="height: 180px;">
+              <div style="background: linear-gradient(135deg, var(--c-raised) 0%, var(--c-surface) 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                <i class="ph ph-shield-check text-indigo" style="font-size: 48px; opacity: 0.5;"></i>
+              </div>
+            </div>
+            <div class="blog-card-meta mt-4">
+              <span class="badge badge-indigo">Product</span>
+              <span>7 min read</span>
+            </div>
+            <h3 class="mt-2" style="font-size: var(--fs-h4);"><a href="#">Best practices for SOC2 compliance logs</a></h3>
+            <p style="font-size: var(--fs-small); margin-top: var(--sp-2);">A guide for SaaS startups preparing audits and how automated audit tracking speeds it up.</p>
+          </div>
+        </div>
+
+        <!-- Post 5 -->
+        <div class="blog-card-item reveal" data-category="engineering" data-reveal-delay="200">
+          <div class="card blog-card">
+            <div class="blog-img-placeholder" style="height: 180px;">
+              <div style="background: linear-gradient(135deg, var(--c-raised) 0%, var(--c-surface) 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                <i class="ph ph-globe text-cyan" style="font-size: 48px; opacity: 0.5;"></i>
+              </div>
+            </div>
+            <div class="blog-card-meta mt-4">
+              <span class="badge badge-cyan">Engineering</span>
+              <span>10 min read</span>
+            </div>
+            <h3 class="mt-2" style="font-size: var(--fs-h4);"><a href="#">Scaling webhook listeners to 12M syncs</a></h3>
+            <p style="font-size: var(--fs-small); margin-top: var(--sp-2);">Deep-dive on horizontal scaling, load balancers, and queue caching techniques under high loads.</p>
+          </div>
+        </div>
+
+        <!-- Post 6 -->
+        <div class="blog-card-item reveal" data-category="design" data-reveal-delay="300">
+          <div class="card blog-card">
+            <div class="blog-img-placeholder" style="height: 180px;">
+              <div style="background: linear-gradient(135deg, var(--c-raised) 0%, var(--c-surface) 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                <i class="ph ph-intersect text-violet" style="font-size: 48px; opacity: 0.5;"></i>
+              </div>
+            </div>
+            <div class="blog-card-meta mt-4">
+              <span class="badge badge-violet">Design</span>
+              <span>4 min read</span>
+            </div>
+            <h3 class="mt-2" style="font-size: var(--fs-h4);"><a href="#">Micro-interactions that boost SaaS trial conversion</a></h3>
+            <p style="font-size: var(--fs-small); margin-top: var(--sp-2);">An analysis on UI hover shifts, button spring ease triggers, and visual progress tracking.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Newsletter Card -->
+    <section class="container">
+      <div class="newsletter-sec reveal">
+        <span class="badge badge-indigo">STAY UPDATED</span>
+        <h2 class="mt-4">Get the latest automation tips in your inbox</h2>
+        <p class="mt-2">We send one highly curated article every two weeks. No spam, unsubscribe anytime.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="Enter your work email address" class="form-input" id="newsletter-email" required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <svg viewBox="0 0 32 32">
+              <path d="M16 2L2 9l14 7 14-7-14-7zM2 16l14 7 14-7-14 7-14-7zm0 7l14 7 14-7-14 7-14-7z"/>
+            </svg>
+            <span>FlowSync</span>
+          </a>
+          <p class="mt-4">Next-generation workspace automation software. Streamline your tool integration pipeline securely.</p>
+          <div class="footer-socials mt-6">
+            <a href="https://twitter.com/flowsync" target="_blank" aria-label="Twitter"><i class="ph ph-twitter-logo"></i></a>
+            <a href="https://linkedin.com/company/flowsync" target="_blank" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+            <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="features.html#security">Security</a></li>
+            <li><a href="features.html#integrations">Integrations</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="about.html#team">Careers</a></li>
+            <li><a href="about.html#press">Press Kit</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Book a demo</a></li>
+            <li><a href="contact.html#support">Help Center</a></li>
+            <li><a href="contact.html#support">SLA Guarantee</a></li>
+            <li><a href="https://status.flowsync.com" target="_blank">System Status</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 FlowSync Inc. All rights reserved | Designed by Rudra Prasad Barada</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <div class="soc2-badge" style="margin-left: var(--sp-4);">
+            <i class="ph ph-shield-check"></i> SOC2 CERTIFIED
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" aria-label="Back to top">
+    <i class="ph ph-caret-up"></i>
+  </button>
+
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>
