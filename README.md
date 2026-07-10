@@ -1,6 +1,7 @@
 <div align="center">
 
-<img width="1600" height="676" alt="FlowSync Workflow Automation Platform" src="https://github.com/user-attachments/assets/REPLACE_WITH_YOUR_FLOWSYNC_HERO_IMAGE_ID" />
+<img width="1600" height="681" alt="Flowsync" src="https://github.com/user-attachments/assets/3399a864-9543-4dce-a19f-8b7b7b81bc27" />
+
 
 <br />
 <br />
