@@ -275,32 +275,6 @@ Open index.html → Right Click → Open with Live Server
 
 ---
 
-## 🔍 GitHub Repository Topics
-
-Add the following topics to the GitHub repository:
-
-```text
-flowsync
-workflow-automation
-saas
-no-code
-ai-workflows
-vanilla-javascript
-javascript
-html5
-css3
-automation-platform
-workflow-engine
-saas-landing-page
-responsive-design
-frontend-development
-web-development
-phosphor-icons
-seo
-accessibility
-portfolio-project
-```
-
 ---
 
 ## 📝 License
